@@ -482,7 +482,7 @@ a {
     }
     
     .left-text h1 {
-        font-size: 30px;
+        font-size: 25px;
         padding-top: 50px;
     }
 
@@ -497,7 +497,7 @@ a {
     }
 
     .slider::after {
-        width: 85%;
+        width: 40%;
     }
   
 
@@ -508,5 +508,21 @@ a {
     .card {
         width: 250px;
         height: 250px;
+    }
+    .prev, .next {
+        top: 40px;
+        width: 40px;
+        height: 40px;
+    }
+
+    .prev-1, .next-1 {
+        top: 390px;
+        width: 40px;
+        height: 40px;
+    }
+    .prev-2, .next-2 {
+        top: 740px;
+        width: 40px;
+        height: 40px;
     }
 }
