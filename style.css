@@ -24,7 +24,7 @@
 .slider::after {
     content: '';
     position: absolute;
-    top: 4%;
+    
     right: 0;
     width: 60%;
     height: 100%;
@@ -50,7 +50,7 @@ body {
 }
 
 .container-1 {
-    max-width: 1200px;
+    max-width: 1180px;
     margin: 0 auto;
     padding: 0 20px;
 }
@@ -120,9 +120,9 @@ body {
 }
 .prev, .next {
     position: absolute;
-    top: 65px;
-    width: 45px;
-    height: 45px;
+    top: 20px;
+    width: 40px;
+    height: 40px;
     background-color: #CECECE;
     border-radius: 50%;
     display: flex;
@@ -161,9 +161,9 @@ body {
 }
 .prev-1, .next-1{
     position: absolute;
-    top: 500px;
-    width: 45px;
-    height: 45px;
+    top: 420px;
+    width: 40px;
+    height: 40px;
     background-color: #CECECE;
     border-radius: 50%;
     display: flex;
@@ -203,9 +203,9 @@ body {
 }
 .prev-2, .next-2{
     position: absolute;
-    top: 936px;
-    width: 45px;
-    height: 45px;
+    top: 820px;
+    width: 40px;
+    height: 40px;
     background-color: #CECECE;
     border-radius: 50%;
     display: flex;
@@ -293,7 +293,7 @@ body {
     width: 100%;
     padding: 20px 0;
     z-index: 1;
-    padding-top: 60px;
+    /* padding-top: 60px; */
 }
 
 .left-text {
